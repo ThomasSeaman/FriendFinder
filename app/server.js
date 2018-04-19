@@ -14,7 +14,7 @@ app.use(bodyparser.json())
 
 
 //Routes
-var friendsArr = [];
+var friendsArr = ['hello'];
 
 app.get('/home', function (req, res) {
   res.redirect('home.html')
